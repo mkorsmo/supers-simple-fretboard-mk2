@@ -11,7 +11,6 @@
     "dependencies": {
       "bootstrap": "^4.6.0",
       "bootstrap-vue": "^2.21.2",
-      "teoria": "^2.5.0",
       "vue": "^2.6.12"
     },
     "devDependencies": {

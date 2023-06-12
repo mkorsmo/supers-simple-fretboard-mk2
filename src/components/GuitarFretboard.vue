@@ -91,13 +91,13 @@ export default {
         },
         getIntervalColor(interval) {
             if (this.scaleMode === 'major') {
-                if (interval === '1') return 'orange';
-                if (interval === '3') return 'blue';
-                if (interval === '5') return 'green';
+                if (interval === '1') return 'blue';
+                if (interval === '3') return 'green';
+                if (interval === '5') return 'orange';
             } else if (this.scaleMode === 'minor') {
-                if (interval === '1') return 'orange';
-                if (interval === 'b3') return 'blue';
-                if (interval === '5') return 'green';
+                if (interval === '1') return 'blue';
+                if (interval === 'b3') return 'green';
+                if (interval === '5') return 'orange';
             }
             return '';
         },
